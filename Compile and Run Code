@@ -1,0 +1,10 @@
+Open a terminal in VS Code and navigate to your project folder.
+
+1. Compile the code:
+bash
+javac -cp "lib/mysql-connector-java-8.0.30.jar:." src/*.java src/**/*.java
+
+
+2. Run the application:
+bash
+java -cp "lib/mysql-connector-java-8.0.30.jar:src" App
